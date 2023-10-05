@@ -158,7 +158,7 @@ const AdminView = () => {
 
     useEffect(()=>{
         setAuthUser(JSON.parse(sessionStorage.getItem("authUser")))
-    })
+    },[])
 
 
 
